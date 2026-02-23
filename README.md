@@ -1,19 +1,16 @@
 # Módulo 3 - Trilha HTML
 
-**Título:** Recriando Wikipedia, com um layout melhor :)
+**Título:** Recriando Wikipedia
 
 ## Objetivo
-Este desafio consiste em treinar você com relação a estrutura do site, e também aplicar conhecimentos adiquiridos sobre semântica e acessibilidade.
+Este desafio tinha por objetivo recriar uma ágina da wikipédia, me guiando no treinamento de estrutura, semântica e acessibilidade.
 
 ## Desafio
-Neste repositório tem uma estrutura básica já pré-montada de um layout simples com um pouco de CSS aplicado. Apenas para deixar mais apresentável.
+-Projeto desenvolvido como exercício prático do curso da DIO.me
 
-Fiquem a vontade para criar da forma que desejarem, e sobre os temas que quiserem. O intuito aqui é divertir, e ao mesmo tempo aprender com o desafio.
+-Estrutura HTML modificada e aprimorada por mim.
 
-Sigam as intruções da chamada do vídeo. Acredito que por lá, ficará mais fácil de entenderem como proceder.
+-CSS base fornecido pelo professor do curso.
 
 ## Links úteis
-- [Download do NVDA](https://www.nvaccess.org/download/)
-- [Wikipedia](https://pt.wikipedia.org/)
-
-
+- [Diogo Mainardes](https://github.com/diogomainardes)

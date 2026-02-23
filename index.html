@@ -4,41 +4,111 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
+    <title>CIMED - Luizitopédia</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-    <div>   
-        <div class="logo">
-            <img src="assets/images/logo.png" width="200"/>
-        </div>
-    </div>
+    <header>   
+        <figure class="logo">
+            <img src="assets/images/logo.png" width="200" alt="Logotipo Luizitopédia"/>
+        </figure>
+    </header>
 
     <div class="bar"></div>
 
     <div class="content">
-        <div class="sidebar">
-            <h2>Título</h2>
+        <nav class="lateral-menu">
+            <h2>Conteúdos</h2>
             <ul>
-                <li><a href="#">Links</a></li>
+                <li><a href="#topo">Início</a></li>
+                <li><a href="#historia">História</a></li>
+                <li><a href="#crescimento">Crescimento</a></li>
+                <li><a href="#patrocinios">Patrocínios</a></li>                
             </ul>
-        </div>
+        </nav>
 
-        <div class="main">
+        <main class="main-content">
+            <h1 id="topo">Grupo Cimed</h1>
+            <p>A Cimed (ou Grupo Cimed) é uma empresa farmacêutica brasileira sediada na cidade de São Paulo. Tendo seu polo fabril localizado no sul de minas, com 2 fábricas na cidade de Pouso Alegre
+                <sup id="nota1">
+                    <a href="#ref1">1</a>
+                </sup>
+                 e uma de embalagens em São Sebastião da Bela Vista, atualmente é a terceira maior farmacêutica do Brasil e sendo a segunda maior em número de vendas de medicamentos no país.</p>
+
+            <h2 id="historia">História</h2>
+            <p>A empresa surgiu a partir da fusão com outras duas, a Windson e a Horno Terápica, transformando-se assim em Grupo Cimed.</p>
+
+            <h2 id="crescimento">Crescimento</h2>
+            <p>A partir de 2012, quando João Adibe assume a empresa fundada pelo pai, João de Castro Marques, a empresa passa por diversas reformulações e com a Crise econômica brasileira de 2014, a farmacêutica focou sua estratégia e investiu na produção de medicamentos genéricos.</p>
+            <p>Em 2022, a Cimed era líder no ramo de medicamento de venda livre, sem necessidade de receita, com esse tipo de medicamento correspondendo a 65% da produção da empresa, sendo 25% de produção de medicamentos genéricos e o restante dividido entre higiene, beleza e suplementos.</p>
+            <p>Em 2023, a Cimed lançou uma linha de hidratantes labiais em parceria com a empresa de doces Fini
+                <sup id="nota2">
+                    <a href="#ref2">2</a>
+                </sup>
+                , que resultou em um faturamento de 23 milhões de reais em um mês, tal sucesso foi seguido por diversas outras parcerias, como com Burger King
+                <sup id="nota3">
+                    <a href="#ref3">3</a>
+                </sup>
+                , Ana Castela e Bauducco
+                <sup id="nota4">
+                    <a href="#ref4">4</a>
+                </sup>
+                . Com tal sucesso a empresa passou a querer expandir seu mercado de atuação, em 2023 comprou uma indústria de lenços umedecidos, e tentou a compra da Jequiti em 2024. Para consolidar tal expansão, o Fundo Soberano de Singapura comprou parte da empresa, no plano de "dobrar a empresa de tamanho em cinco anos", segundo João Adibe.</p>
             
-        </div>
-
-        <div class="anchors">
-            <h2>Neste Artigo</h2>
+            <h2 id="patrocinios">Patrocínios</h2>
             <ul>
-                <li><a href="#">Âncoras</a></li>
+                <li>Seleção Brasileira de Futebol</li>
+                <li>Seleção Brasileira de Futebol feminino</li>
+                <li>Cruzeiro Esporte Clube</li>
+                <li>Cruzeiro feminino</li>
+                <li>Clube Náutico Capibaribe</li>
+                <li>Sociedade Esportiva Palmeiras</li>
             </ul>
-        </div>
+        </main>
+
+        <aside class="referencias">
+            <figure class="logo" alt="logotipo">
+            <img src="assets/images/CIMED.png" width="200"/>
+            </figure>
+            <h2>Neste Artigo</h2>
+            
+            <ol>
+                <li id="ref1">
+                    Pouso Alegre — 
+                    <a href="https://pt.wikipedia.org/wiki/Pouso_Alegre">Ver mais</a>
+                    <a href="#nota1">↩</a>
+                </li>
+                <li id="ref2">
+                    Fini — 
+                    <a href="https://pt.wikipedia.org/wiki/Fini">Ver mais</a>
+                    <a href="#nota2">↩</a>
+                </li>
+                <li id="ref3">
+                    Burger King — 
+                    <a href="https://pt.wikipedia.org/wiki/Burger_King">Ver mais</a>
+                    <a href="#nota3">↩</a>
+                </li>
+                <li id="ref4">
+                    Bauducco — 
+                    <a href="https://pt.wikipedia.org/wiki/Bauducco">Ver mais</a>
+                    <a href="#nota4">↩</a>
+                </li>
+            </ol>
+        </aside>
     </div>
 
-    <div class="footer">
-
-    </div>
+    <footer>
+    <p>Esta página foi criada para fins educacionais.</p>
+    <p>Última atualização: Fevereiro de 2026</p>
+    <nav>
+            <ul>
+                <li><a href="#">Política de privacidade</a></li>
+                <li><a href="#">Sobre o projeto</a></li>
+                <li><a href="#topo">Voltar ao topo</a></li>
+            </ul>
+    </nav>
+    <p>&copy; 2026 Luizitopédia</p>
+    </footer>
 </body>
 </html>
